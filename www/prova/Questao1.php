@@ -19,10 +19,13 @@
 //Retorno inteiro
 //O número do século em que se encontra o ano.
 
+var_dump(centuryFromYear(374));
 
 function centuryFromYear($year)
 {
-
-    // CÓDIGO ...
-
+    $resultado = 0;
+    for ($i=0; $i < $year; $i+=100) {
+        $resultado = $resultado + 1;
+    }
+    return $resultado;
 }

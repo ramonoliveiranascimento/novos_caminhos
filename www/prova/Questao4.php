@@ -19,8 +19,12 @@
 // de retorno deve ser 3.
 // Gisifruno precisa de estátuas de tamanhos 4, 5 e 7
 // ou seja de três estátuas
-
+var_dump(makeArrayConsecutive2([6, 2, 3, 8]));
 function makeArrayConsecutive2($statues)
 {
-    // CÓDIGO
+    rsort($statues);
+    for ($i=; $i > 0 ; $i++) {
+        echo $i;
+    
+
 }

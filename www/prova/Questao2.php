@@ -16,7 +16,16 @@
 // true se inputString é um palíndromo,
 // false se caso contrário.
 
+var_dump(checkPalindrome("zzzazzazz"));
+
 function checkPalindrome($inputString)
 {
-    // CÓDIGO
+    if ($inputString == strrev($inputString))
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
 }

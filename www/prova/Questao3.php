@@ -1,9 +1,10 @@
 <?php
 
-// Questão 3
-// Dado um vetor de inteiros, encontre o par de elementos
-// adjacentes que possui o maior produto
-// e depois retorne o valor desse produto.
+/* Questão 3
+Dado um vetor de inteiros, encontre o par de elementos
+adjacentes que possui o maior produto
+e depois retorne o valor desse produto.
+*/
 
 //Exemplo
 
@@ -14,8 +15,16 @@
 // Retorno o maior produto
 //O maior produto de elementos adjacentes.
 
-
-function adjacentElementsProduct($inputArray)
+var_dump(adjacentElementsProduct([5, 6, -4, 2, 3, 2, -23]));
+function adjacentElementsProduct ($inputArray)
 {
-    // CÓDIGO
+    $maior = 0;
+    for ($i=0; $i < count($inputArray); $i++) {
+        $resultado = $inputArray[$i] * $inputArray[$i+1];
+        if($resultado > $maior)
+        {
+            $maior = $resultado;
+            return $maior;
+        }
+    }
 }
