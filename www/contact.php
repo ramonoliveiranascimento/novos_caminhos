@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Iury Gomes de Oliveira</title>
+    <title>Ramon Oliveira Nascimento</title>
 
     <!-- Meta Data -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="author" content="Iury Gomes de Oliveira" />
-    <meta name="description" content="Portifólio de trabalhos realizados e formação de Iury Gomes de Oliveira" />
+    <meta name="author" content="Ramon Oliveira Nascimento" />
+    <meta name="description" content="Portifólio de trabalhos realizados e formação de Ramon Oliveira Nascimento" />
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="assets/styles/style.css" />
     <link rel="stylesheet" type="text/css" href="assets/styles/style-dark.css" />
@@ -37,29 +37,29 @@
             <header class="header box">
                 <div class="header__left">
                     <div class="header__photo">
-                        <img class="header__photo-img" src="assets/img/profile.jpeg" alt="Iury Gomes de Oliveira">
+                        <img class="header__photo-img" src="assets/img/profile.jpeg" alt="Ramon Oliveira Nascimento">
                     </div>
                     <div class="header__base-info">
-                        <h4 class="title titl--h4">Iury Gomes de Oliveira</h4>
-                        <div class="status">Desenvolvedor WEB</div>
+                        <h4 class="title titl--h4">Ramon Oliveira Nascimento</h4>
+                        <div class="status">Aprendiz De Desenvolvedor WEB</div>
                         <ul class="header__social">
                             <li>
-                                <a href="https://www.linkedin.com/in/iurygdeoliveira/">
+                                <a href="https://www.linkedin.com">
                                     <i class="font-icon icon-linkedin"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/iurygdeoliveira">
+                                <a href="https://github.com/ramonoliveiranascimento">
                                     <i class="font-icon icon-github"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.youtube.com/channel/UCTM1Idirf0ALOdEdq31qkjg?view_as=subscriber">
+                                <a href="https://www.youtube.com">
                                     <i class="font-icon icon-youtube"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://twitter.com/IuryProf">
+                                <a href="https://twitter.com">
                                     <i class="font-icon icon-twitter"></i>
                                 </a>
                             </li>
@@ -73,11 +73,10 @@
                             <span class="overhead">
                                 Email
                             </span>
-                            email.comercial@contato.com.br
+                            ramon.on.27@gmail.com
                         </li>
                         <li>
-                            <span class="overhead">Telefone</span><a
-                                href="https://api.whatsapp.com/send?phone=55xxxxxxxxxxx">+55 (xx) xxxxx-xxxx </a>
+                            <span class="overhead">Telefone</span><a href="https://api.whatsapp.com/send?phone=55DDD9.0000-0000">+55 (xx) xxxxx-xxxx </a>
                         </li>
                     </ul>
                     <ul class="header__contact">
@@ -117,35 +116,22 @@
 
                         <!-- Contato -->
 
-                        <form action="email.php" method="post" id="contact-form" class="contact-form"
-                            data-toggle="validator">
+                        <form action="email.php" method="post" id="contact-form" class="contact-form" data-toggle="validator">
                             <div class="row">
                                 <div class="form-group col-12 col-md-6">
-                                    <input type="text" class="form-control" id="nameContact" name="nameContact"
-                                        placeholder="Nome" required="required" autocomplete="on"
-                                        oninvalid="setCustomValidity('Fill in the field')"
-                                        onkeyup="setCustomValidity('')">
+                                    <input type="text" class="form-control" id="nameContact" name="nameContact" placeholder="Nome" required="required" autocomplete="on" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group col-12 col-md-6">
-                                    <input type="phone" class="form-control" id="phoneContact" name="phoneContact"
-                                        placeholder="Telefone" required="required" autocomplete="on"
-                                        oninvalid="setCustomValidity('Email is incorrect')"
-                                        onkeyup="setCustomValidity('')">
+                                    <input type="phone" class="form-control" id="phoneContact" name="phoneContact" placeholder="Telefone" required="required" autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')" onkeyup="setCustomValidity('')">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group col-12 col-md-12">
-                                    <input type="email" class="form-control" id="emailContact" name="emailContact"
-                                        placeholder="Email" required="required" autocomplete="on"
-                                        oninvalid="setCustomValidity('Email is incorrect')"
-                                        onkeyup="setCustomValidity('')">
+                                    <input type="email" class="form-control" id="emailContact" name="emailContact" placeholder="Email" required="required" autocomplete="on" oninvalid="setCustomValidity('Email is incorrect')" onkeyup="setCustomValidity('')">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="form-group col-12 col-md-12">
-                                    <textarea class="textarea form-control" id="messageContact" name="messageContact"
-                                        placeholder="Mensagem" rows="4" required="required"
-                                        oninvalid="setCustomValidity('Fill in the field')"
-                                        onkeyup="setCustomValidity('')"></textarea>
+                                    <textarea class="textarea form-control" id="messageContact" name="messageContact" placeholder="Mensagem" rows="4" required="required" oninvalid="setCustomValidity('Fill in the field')" onkeyup="setCustomValidity('')"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -161,15 +147,12 @@
                         </form><br><br><br>
 
                         <div class="map" id="map">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.824943304019!2d-46.82046378548918!3d-23.646439470623644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce54a94ba3ac0d%3A0x86dcf699b8be9412!2sParque%20Luiza%2C%20Embu%20das%20Artes%20-%20SP%2C%2006810-240!5e0!3m2!1spt-BR!2sbr!4v1599504382367!5m2!1spt-BR!2sbr"
-                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                                aria-hidden="false" tabindex="0"></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14965.83448032997!2d-40.38028022060809!3d-20.32266403215991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83c13f13fac55%3A0x6d86b2f8ef713216!2sItacib%C3%A1%2C%20Cariacica%20-%20ES!5e0!3m2!1spt-BR!2sbr!4v1603900871068!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </div>
                     </div>
 
                     <!-- Footer -->
-                    <footer class="footer">© Iury Gomes de Oliveira</footer>
+                    <footer class="footer">© Ramon Oliveira Nascimento</footer>
                 </div>
             </div>
         </div>
@@ -178,12 +161,10 @@
     <!-- SVG masks -->
     <svg class="svg-defs">
         <clipPath id="avatar-box">
-            <path
-                d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z" />
+            <path d="M1.85379 38.4859C2.9221 18.6653 18.6653 2.92275 38.4858 1.85453 56.0986.905299 77.2792 0 94 0c16.721 0 37.901.905299 55.514 1.85453 19.821 1.06822 35.564 16.81077 36.632 36.63137C187.095 56.0922 188 77.267 188 94c0 16.733-.905 37.908-1.854 55.514-1.068 19.821-16.811 35.563-36.632 36.631C131.901 187.095 110.721 188 94 188c-16.7208 0-37.9014-.905-55.5142-1.855-19.8205-1.068-35.5637-16.81-36.63201-36.631C.904831 131.908 0 110.733 0 94c0-16.733.904831-37.9078 1.85379-55.5141z" />
         </clipPath>
         <clipPath id="avatar-hexagon">
-            <path
-                d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z" />
+            <path d="M0 27.2891c0-4.6662 2.4889-8.976 6.52491-11.2986L31.308 1.72845c3.98-2.290382 8.8697-2.305446 12.8637-.03963l25.234 14.31558C73.4807 18.3162 76 22.6478 76 27.3426V56.684c0 4.6805-2.5041 9.0013-6.5597 11.3186L44.4317 82.2915c-3.9869 2.278-8.8765 2.278-12.8634 0L6.55974 68.0026C2.50414 65.6853 0 61.3645 0 56.684V27.2891z" />
         </clipPath>
     </svg>
 
